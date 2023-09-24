@@ -1,10 +1,10 @@
 [package]
 name = "skinshop"
 version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
-license = ""
-repository = ""
+description = "Professional Minecraft Skin creation software. Create stunning skins."
+authors = ["QuirkStudios", "Cameron Whyte"]
+license = "GPL-3.0-or-later"
+repository = "https://gitlab.com/quirk-studios/open-source/skinshop"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
