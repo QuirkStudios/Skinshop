@@ -17,11 +17,11 @@ fn main() {
     let window_menu = Submenu::new("Window", Menu::new());
     let help_menu = Submenu::new("Help", Menu::new());
     let menu = Menu::new()
-      .add_submenu(file_menu)
-      .add_submenu(edit_menu)
-      .add_submenu(view_menu)
-      .add_submenu(window_menu)
-      .add_submenu(help_menu);
+        .add_submenu(file_menu)
+        .add_submenu(edit_menu)
+        .add_submenu(view_menu)
+        .add_submenu(window_menu)
+        .add_submenu(help_menu);
     tauri::Builder::default()
         .invoke_handler(tauri::generate_handler![greet])
         .menu(menu)

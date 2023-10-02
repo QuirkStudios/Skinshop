@@ -45,7 +45,7 @@ Start Tauri
 
 - [Tauri](https://tauri.app/)
 - [Svelte](https://svelte.dev/)
-- [Mantine](https://ui.mantine.dev/)
+- [Skeleton](https://www.skeleton.dev)
 - [Typescript](https://www.typescriptlang.org/)
 - [Rust](https://www.rust-lang.org/)
 
